@@ -14,7 +14,6 @@ return new class extends Migration
             $table->string('status');
             $table->string('delivery_address');
             $table->timestamp('delivery_time');
-            $table->integer('total_price');
             $table->timestamps();
         });
     }

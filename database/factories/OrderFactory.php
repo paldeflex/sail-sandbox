@@ -14,7 +14,6 @@ class OrderFactory extends Factory
             'status' => fake()->randomElement(OrderStatus::cases())->value,
             'delivery_address' => fake()->address(),
             'delivery_time' => fake()->dateTimeBetween('now', '+2 hours'),
-            'total_price' => fake()->numberBetween(100, 10000),
             'user_id' => User::inRandomOrder()->value('id'),
         ];
     }
