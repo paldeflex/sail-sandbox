@@ -1,7 +1,7 @@
 <?php
 
+use App\Http\Controllers\Api\JwtAuthController;
 use App\Http\Controllers\Api\ProductController;
-use App\Http\Controllers\JwtAuthController;
 use App\Http\Middleware\AdminMiddleware;
 use App\Http\Middleware\JwtMiddleware;
 use Illuminate\Support\Facades\Route;
